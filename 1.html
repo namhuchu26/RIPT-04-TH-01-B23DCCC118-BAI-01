@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dong ho </title>
+    <style>
+        #time{
+            background-color: rgb(199, 107, 238);
+            background-image:url(hinh-anh-one-piece-14.jpg);
+            padding: 200px;
+            color: #fff;
+            font-size: 44px;
+            font-weight: blod ;
+            text-align: center;
+            width: 200px;
+            margin: 25px auto;
+            border-radius: 50px;
+
+            
+
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="time"></div>
+    
+    <script>
+        let time = document.getElementById("time");
+        let d = new Date();
+        time.innerHTML= d.toLocaleTimeString();
+    </script>
+</body>
+</html>
